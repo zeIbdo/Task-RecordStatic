@@ -3,7 +3,7 @@
 internal class User
 {
     private string _password;
-    public static int id { get; set; }
+    private static int id { get; set; }
     public int Id { get;  }
     public string FullName { get; set; }
     public string Email { get; set; }
