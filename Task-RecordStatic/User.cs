@@ -31,7 +31,7 @@ internal class User
         bool haveSmallLetter = false;
         bool haveNumber = false;
         bool correctLength = false;
-        if (password.Length == 8)
+        if (password.Length >=8)
         {
             correctLength = true;
         }
